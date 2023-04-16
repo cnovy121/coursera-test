@@ -1,0 +1,78 @@
+* {
+	font-family: helvetica;
+  	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+}
+
+.header {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.MenuItem {
+	width: 97%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin: 10px;
+	background-color: #9ea1a3;
+	font-size: 1em;
+	position: relative;
+	float: left;
+}
+
+.MenuText {
+	background-color: #9ea1a3;
+	border-style: none;
+	padding: 5px;
+	padding-top: 30px;
+	margin: 5px;
+}
+
+.ItemType {
+	font-size: 1.25em;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 0px;
+	margin: -1px;
+}
+
+#Chicken {
+	background-color: lightpink;
+}
+
+#Beef {
+	background-color: palevioletred;
+}
+
+#Sushi {
+	background-color: lightyellow;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .MenuItem {
+    width: 31%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .MenuItem1 {
+    width: 47%;
+  }
+  .MenuItem2 {
+    width: 97%;
+  }
+}
